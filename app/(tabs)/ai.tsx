@@ -1,9 +1,9 @@
 import { StyleSheet, Text, View } from "react-native";
 
-export default function ExploreScreen() {
+export default function OCRScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>Explore</Text>
+      <Text style={styles.title}>OCR</Text>
     </View>
   );
 }
@@ -19,3 +19,4 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
   },
 });
+
