@@ -49,11 +49,11 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
-        name="ai"
+        name="profile"
         options={{
-          title: "AI",
+          title: "Profile",
           tabBarIcon: ({ color }) => (
-            <IconSymbol size={28} name="sparkles" color={color} />
+            <IconSymbol size={28} name="person.fill" color={color} />
           ),
         }}
       />
